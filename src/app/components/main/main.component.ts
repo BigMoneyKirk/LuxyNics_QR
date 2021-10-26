@@ -17,8 +17,7 @@ export class MainComponent implements OnInit {
 
   public vCard: VCard = {
     name: {
-      firstNames: "Stephen",
-      lastNames: "Kirkland",
+      firstNames: "Luxy Nics"
     },
     telephone: ["912-536-7419"],
     email: ["skirkland.job@gmail.com"],
