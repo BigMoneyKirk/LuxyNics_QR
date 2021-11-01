@@ -1,5 +1,7 @@
 $light-brown-border: #caa181;
 $maroon-border: #420101;
+$wine-red: #690b22;
+$dark-brown: #290101;
 
 .app-container {
     height: 98vh;
@@ -72,7 +74,7 @@ li {
 li a {
     text-decoration: none;
     backdrop-filter: blur(10px);
-    border: 2px solid lightskyblue;
+    border: 2px solid whitesmoke;
     border-radius: 5px;
     cursor: pointer;
     color: white;

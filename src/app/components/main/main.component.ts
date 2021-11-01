@@ -12,7 +12,7 @@ export class MainComponent implements OnInit {
 
   public businessName: string = "Savannah Picnic by Luxy Nics";
   public personName: string = "Kate Ward"
-  public telephone: string = "912-536-7419";
+  public telephone: string = "912-677-1512";
   public email: string = "kate@savannahpicnic.com";
 
   constructor(public imageService: ImageService) { }
@@ -26,7 +26,7 @@ export class MainComponent implements OnInit {
     },
     telephone: [this.telephone],
     email: [this.email],
-    workEmail: ["kirklandenterprisesunlimited@gmail.com"],
+    workEmail: [this.email],
     role: "CEO of Luxy Nics",
     url: "https://savannahpicnic.com/",
     logo: "../../assets/images/logos/luxy_nics_logo.jpg",
