@@ -10,6 +10,11 @@ import { VCard } from "ngx-vcard";
 })
 export class MainComponent implements OnInit {
 
+  public businessName: string = "Savannah Picnic by Luxy Nics";
+  public personName: string = "Kate Ward"
+  public telephone: string = "912-677-1512";
+  public email: string = "kate@savannahpicnic.com";
+
   constructor(public imageService: ImageService) { }
 
   ngOnInit() {
@@ -17,17 +22,14 @@ export class MainComponent implements OnInit {
 
   public vCard: VCard = {
     name: {
-      firstNames: "Luxy Nics"
+      firstNames: this.businessName
     },
-    telephone: ["912-536-7419"],
-    email: ["skirkland.job@gmail.com"],
-    workEmail: ["kirklandenterprisesunlimited@gmail.com"],
-    role: "CEO of Kirkland Enterprises Unlimited",
-    url: "https://BigMoneyKirk.github.io/QR/",
-    sound: "../../assets/sounds/Stephen_Kirkland.m4a",
-    logo: "../../assets/images/logos/KEU_Logo_FullColor.png",
-    photo: "Li4vLi4vYXNzZXRzL2ltYWdlcy9sb2dvcy9LRVVfTG9nb19GdWxsQ29sb3IucG5n",
-    note: "Creator of the QR Virtual Business Card"
+    telephone: [this.telephone],
+    email: [this.email],
+    workEmail: [this.email],
+    role: "CEO of Luxy Nics",
+    url: "https://savannahpicnic.com/",
+    logo: "../../assets/images/logos/luxy_nics_logo.jpg",
   };
 
 }
