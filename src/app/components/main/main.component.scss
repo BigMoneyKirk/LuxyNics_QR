@@ -23,7 +23,13 @@ $dark-brown: #290101;
     margin-top: 20px;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
 .card-part {
+    width: 80%;
     backdrop-filter: blur(6px);
     border: 1px solid $light-brown-border;
     border-radius: 5px;
