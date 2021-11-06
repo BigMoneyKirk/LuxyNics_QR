@@ -1,8 +1,13 @@
+$light-brown-border: #caa181;
+$maroon-border: #420101;
+$wine-red: #690b22;
+$dark-brown: #290101;
+
 .app-container {
     height: 100%;
     min-height: 98vh;
     width: 100%;
-    background: url('../../../assets/images/backgrounds/shiny_cubes.jpg');
+    background: url('../../../assets/images/backgrounds/maroon-03.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -82,11 +87,11 @@
 
 .card-part {
     backdrop-filter: blur(6px);
-    border: 1px solid lavender;
+    border: 1px solid $light-brown-border;
     border-radius: 5px;
     margin: 40px 10px;
-    box-shadow: 0px 5px 30px rebeccapurple, -15px 15px 0.35rem grey, 3px -3px 1rem white;
-    animation: floatingCard 6.5s ease-in-out infinite;
+    box-shadow: 0px 5px 30px #420101, -15px 15px 0.35rem #290101, 3px -3px 1rem #52151c;
+    animation: animate 6.5s ease-in-out infinite;
     text-align: center;
     font-family: Gilroy-Light;
     width: 80%;
@@ -115,8 +120,8 @@ img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 5px solid lightblue;
-    box-shadow: 0px 5px 30px rebeccapurple, -15px 15px 0.35rem grey, 3px -3px 1rem white;
+    border: 5px solid maroon;
+    box-shadow: 0px 5px 30px rgb(63, 59, 66), -15px 15px 0.35rem $maroon-border, 3px -3px 1rem white;
 }
 
 ul{
@@ -132,7 +137,7 @@ li {
 li a {
     text-decoration: none;
     backdrop-filter: blur(10px);
-    border: 2px solid lightskyblue;
+    border: 2px solid whitesmoke;
     border-radius: 5px;
     cursor: pointer;
     color: white;
